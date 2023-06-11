@@ -1,2 +1,0 @@
-# Travel-Journal
-Scrimba project
