@@ -24,3 +24,9 @@ body {
   color:white;
   font-weight: 500;
 }
+
+.img {
+  width: 125px;
+  height:168px;
+  border-radius: 5px;
+}

@@ -3,7 +3,7 @@ const Hero = (props) => {
   
   return (
     <main className="main-container">
-        <img src={props.img} alt="japan image"></img>
+        <img className="img" src={props.img} alt="japan image"></img>
       <div className="right-container">
         <p className="location">{props.location.country}</p>
         <a href={props.location.link} className="link">View on google maps</a>
