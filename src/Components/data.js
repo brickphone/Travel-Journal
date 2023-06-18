@@ -3,7 +3,7 @@ import japan from './Images/japan.jpg'
 export default [
   {
     id:1,
-    img:{japan},
+    img:japan,
     title:"Mount Fuji",
     location: {
       country:"Japan",
