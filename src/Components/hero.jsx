@@ -1,4 +1,4 @@
-import pointer from '../assets/location.png'
+import pointer from '../assets/location.svg'
 
 /* eslint-disable react/prop-types */
 const Hero = (props) => {
