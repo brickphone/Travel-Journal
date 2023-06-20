@@ -15,6 +15,7 @@ const Hero = (props) => {
         <p className="date">{props.date}</p>
         <p className="description">{props.description}</p>
       </div>
+      
     </main>
   )
 }
