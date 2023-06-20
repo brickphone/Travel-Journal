@@ -1,3 +1,6 @@
+import pointer from '../assets/location.png'
+
+/* eslint-disable react/prop-types */
 const Hero = (props) => {
   console.log(props)
   
@@ -5,6 +8,7 @@ const Hero = (props) => {
     <main className="main-container">
         <img className="img" src={props.img} alt="japan image"></img>
       <div className="right-container">
+        <img className="pointer" src={pointer} alt="location pointer"></img>
         <p className="location">{props.location.country}</p>
         <a href={props.location.link} className="link">View on google maps</a>
         <h1 className="title">{props.title}</h1>
