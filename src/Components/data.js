@@ -17,6 +17,7 @@ export default [
   {
     id:2,
     img:australia,
+    title:"Sydney Opera House",
     location: {
       country:"AUSTRALIA",
       link:"https://www.google.com/maps?q=sydney+opera+house&um=1&ie=UTF-8&sa=X&ved=2ahUKEwijju-Nm9T_AhUNR_EDHX-kCRAQ0pQJegQIAxAE",
@@ -26,7 +27,9 @@ export default [
   },
   {
     id:3,
+
     img:norway,
+    title:"Geirangerfjord",
     location: {
       country:"NORWAY",
       link:"https://www.google.com/maps?q=geirangerfjorden&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjH-pb9u9T_AhWNSvEDHZQlB4IQ0pQJegQIBBAE"

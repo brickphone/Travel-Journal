@@ -32,10 +32,34 @@ body {
 }
 
 .pointer {
-  width: 70px;
-  height: 60px;
+  width: 30px;
+  height: 20px;
 }
 
 .main-container {
   display: flex;
+  margin-top:60px;
+  margin-left:40px;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.right-container {
+  display:flex;
+  flex-direction: column;
+  margin-left:20px;
+}
+
+
+
+.date {
+  font-weight: bolder;
+}
+
+.link {
+  color:grey;
 }
