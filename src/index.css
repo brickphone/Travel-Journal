@@ -26,8 +26,8 @@ body {
 }
 
 .img {
-  width: 125px;
-  height:168px;
+  width: 180px;
+  height:245px;
   border-radius: 5px;
 }
 
@@ -46,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .right-container {
@@ -54,7 +55,14 @@ body {
   margin-left:20px;
 }
 
+.location {
+  margin-right:83%;
+  letter-spacing: 0.2em;
+}
 
+.link {
+  margin-right:20px;
+}
 
 .date {
   font-weight: bolder;
@@ -63,3 +71,8 @@ body {
 .link {
   color:grey;
 }
+
+/*Make site responsive later*/
+@media (max-width:500px) {
+  
+} 
