@@ -39,14 +39,13 @@ body {
 .main-container {
   display: flex;
   margin-top:60px;
-  margin-left:40px;
+  padding-left:50px;
 }
 
 .upper {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .right-container {
@@ -56,23 +55,38 @@ body {
 }
 
 .location {
-  margin-right:83%;
   letter-spacing: 0.2em;
 }
 
 .link {
-  margin-right:20px;
+  color:grey;
+  padding-left:10px;
 }
 
 .date {
   font-weight: bolder;
 }
 
-.link {
-  color:grey;
+.line {
+  width:1000px;
+  height:20px;
+  background:grey;
 }
 
 /*Make site responsive later*/
 @media (max-width:500px) {
-  
+  body {
+    margin:0;
+    padding:0;
+  }
+
+  .navbar-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+    flex-wrap:wrap;
+    width:100%;
+    box-sizing: border-box;
+  }
 } 
